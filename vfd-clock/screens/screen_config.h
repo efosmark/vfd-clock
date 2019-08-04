@@ -1,0 +1,20 @@
+
+#ifndef SCREEN_CONFIG_H_
+#define SCREEN_CONFIG_H_
+
+#define SCREEN_WIDTH 24
+#define HALF_LEN 12
+
+#define SCREEN_CONFIG_REFRESH_DELAY 60
+
+#define CONFIG_OPT_SET_DEG_TYPE   0
+#define CONFIG_OPT_SET_UTC_HOUR   1
+#define CONFIG_OPT_SET_TZ_OFFSET  2
+#define CONFIG_OPT_SET_MINUTE     3
+#define CONFIG_OPT_SET_BRIGHTNESS 4
+#define CONFIG_OPT_EXIT 5
+
+void screen_config_menu();
+
+
+#endif /* SCREEN_CONFIG_H_ */
